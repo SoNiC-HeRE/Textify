@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "react-icons": "^5.0.1",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4"
+  },
+  "name": "chat-app-mern",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
