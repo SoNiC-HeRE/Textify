@@ -23,7 +23,7 @@ const Login = () => {
                     <label className='label p-2'>
                             <div className="text-base label-text text-white">Username</div>
                     </label>
-                    <input type='text' placeholder='Enter username' className='input input-bordered w-full max-w-xs text-black h-10'
+                    <input type='text' placeholder='Enter username' className='input input-bordered w-full max-w-xs text-black bg-white h-10'
                         value = {userName}
                         onChange = {(e) => setuserName(e.target.value)}
                     />
@@ -35,7 +35,7 @@ const Login = () => {
                     <input 
                         type = 'password'
                         placeholder='Enter password'
-                        className='w-full input input-bordered max-w-xs text-black h-10'
+                        className='w-full input input-bordered max-w-xs text-black bg-white h-10'
                         value = {password}
                         onChange = {(e) => setPassword(e.target.value)}
                     />
